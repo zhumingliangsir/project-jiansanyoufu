@@ -1,0 +1,825 @@
+/*公共样式*/
+/*header的描述*/
+/*header-top的描述*/
+
+
+
+
+/*banner图*/
+.index_bigbanner{
+	width: 100%;
+	height:450px;
+	position:relative;
+	overflow:hidden;
+
+}
+/* 悬浮列表 */
+/* banner左边的的表述 */
+.over_banner{
+	width: 1220px;
+	margin: 0 auto ;
+}
+
+.banner_list{
+	/* 宽度居中对齐 */
+	width:1220px;
+	height:430px;
+	margin: 0 auto;
+	position:absolute;
+	top: 10px;
+}
+.banner_left{
+	width:210px;
+	height:430px;
+	background: #ffffff;
+	position:relative;
+	z-index:100;
+
+}
+/* 对主题的描述 */
+.banner_left{
+	/* 内边距 */
+	
+}
+.banner_left .banner_zhuti{
+font-size:14px;
+background-color:#FF5256;
+color:#fff;
+line-height:33px;
+padding-left:20px;
+	font-weight:normal;
+}
+/* 对中间content的描述 */
+/* 公共的样式的描述 */
+.banner_content_common{
+	margin-left:20px;
+	border-bottom:1px solid #F6F6F6;
+	padding-bottom:14px;
+}
+.banner_content_common:hover{
+	/*padding-left:10px;*/
+}
+.banner_content_common>h2{
+ margin-bottom:5px;
+}
+.banner_content_common:hover>h2>a{
+	color:#ff5256;
+}
+.banner_content_common>h2>a{
+	font-size:16px;
+	color:#323232;
+}
+.banner_content_common>p>a{
+	color:#a5a5a5;
+}
+.banner_content_common>p>a:hover{
+	color:#ff5256;
+}
+
+/* 对中间部分的描述 */
+.banner_center{
+	/* 宽度高度 */
+	width:710px;
+	height:430px;
+	font-size:14px;
+	background: #fff;
+	position:relative;
+	z-index: 0;
+}
+/* 电信咨询业务的描述 */
+
+.banner_center_container1{
+	width:733px;
+	height: 430px;;
+}
+.container1_left{
+	width:205px;
+	height:410px;
+	box-sizing:border-box;
+	padding:15px 20px;
+	float:left;
+
+}
+.container1_li{
+	margin-bottom: 10px;
+}
+.container1_li>a{
+	line-height:35px;
+}
+.container1_li>a:hover{
+	background-color:#ff5256;
+}
+.container1_li>a{
+ /*对a设置背景 然后对a进行padding设置*/
+	padding-left:42px;
+	width: 140px;
+	height: 35px;
+}
+/*对于container1中的右侧描述*/
+/*公共部分描述*/
+.container1_right{
+	width:510px;
+	height:430px;
+	float:left;
+	background-color:#f9f9f9;
+	font-size: 12px;
+	padding: 20px 0 0 20px;
+	box-sizing:border-box;
+}
+.container1_right dt{
+	height:29px;
+	line-height: 29px;
+	border-bottom:1px solid #e8e8e8;
+	font-weight:bold;
+	font-size:14px;
+}
+.container1_right .A{
+	width:166px;height:23px;
+	background: #e2e2e2;
+	text-align: center;
+	margin-top: 10px;
+	line-height:23px;
+	margin-bottom:10px;
+    clear:both;
+}
+.container1_right dd{
+	float:left;
+	margin: 5px 10px 5px 0;
+}
+.container1_right dd a{
+	color: #868686;
+}
+.container1_right dd a:hover{
+	color: #474e5d;
+	text-decoration: underline;
+}
+
+
+
+
+.container1_right .img{
+	float:right;
+	margin:60px 0;
+}
+
+.banner_center_container4{
+	width:710px;
+}
+
+
+/*右边咨询框的描述*/
+.banner_right{
+	background: #fff;
+	width: 280px;
+	height: 430px;;
+	float: right;
+	padding:5px 10px 0 10px;
+	font-size: 12px;
+	margin:0 0 10px;
+	box-sizing:border-box;
+	color:#999;
+	position:relative;
+	z-index:100;
+}
+/*右边框title的描述*/
+.banner_right_title{
+
+	text-align:center;
+}
+.banner_right_title label{
+	width: 40px;
+	height: 1px;
+	display:inline-block;
+	background:#aeaeae;
+	vertical-align:middle;
+}
+.banner_right_title span {
+	font-size: 18px;
+	color:#474e5d;
+}
+.banner_right_title p{
+	margin:10px;
+}
+/*对留言框中间的描述*/
+.banner_right form input{
+	background: #f0efed;
+	height:40px;
+	line-height:40px;
+	outline: none;
+	border-radius:4px;
+	width:260px;
+	margin-bottom:10px;
+}
+.banner_right form input[type="button"]{
+	background:#ff5256;
+	color:#fff;
+	font-size:16px;
+	cursor: pointer;
+}
+.banner_right p{
+	text-align:center;
+}
+.banner_right>h3{
+	margin:10px 0;
+	color:#474e5d;
+}
+/*/滚动框的描述*/
+.scroll_bar{
+	height:130px;
+	overflow:hidden;
+}
+.scroll_bar li{
+	margin-bottom: 10px;
+}
+.scroll_bar p{
+	text-align:left;
+	padding-left:5px;
+	padding-top:5px;
+}
+
+
+
+
+
+/*对于banner大图描述*/
+.banner_scorllul{
+  position :absolute;
+	width: 450px;
+}
+.banner_scorll{
+
+	width: 100%;
+	height: 450px;
+	position:relative;
+	margin:0 auto;
+}
+.banner_scorllli{
+	height: 450px;
+	float: left;
+}
+.banner_scorllli img{
+	width:100%;
+}
+
+
+
+
+
+
+
+/* 公告 */
+.notice{
+	width:1220px;
+	margin:13px auto 45px;
+	border:1px solid #E2E1E1;
+	height:25px;
+	padding:15px;
+	border-radius:3px;
+}
+.notice li {
+	margin-left:40px;
+}
+.notice a{
+	font-size:12px;
+	color:#666;
+	font-weight:700;
+	margin-left: 20px;
+}
+
+
+
+
+
+/*相同部分*/
+
+.index_tsfw {
+	width: 1219px;
+	background: #fff;
+	margin: 35px auto 0;
+	border-top: 1px solid #ff3141;
+	border-right: 1px solid #f0f0f0;
+	margin-bottom:100px;
+
+}
+
+.index_tsfw01{
+	width: 270px;
+	height: 458px;float:left;
+}
+.index_tsfw02{
+	padding: 25px 0 0 40px;
+}
+.index_tsfw03{
+	margin-bottom: 20px;
+}
+.index_tsfw03a{
+	font-size:30px;
+	color:#fff;
+}
+.index_tsfw03a:hover{
+	padding-left: 10px;
+}
+.index_tsfw04{
+	font-size: 14px;
+}
+
+/*li两套样式的编写*/
+/*公共面的描述*/
+.index_tsfw04li{
+	 border:1px solid  #fff;
+	 border-right:none;
+	 height: 35px;
+	 line-height:35px;
+ }
+.index_tsfw04liA{
+	padding-left: 40px;
+	color:#fff;
+	margin:0 0 5px 62px;
+	background:rgba(255,255,255,0.2)
+
+}
+.index_tsfw04liB{
+	background:#fff;
+	color:#e80b05;
+    margin:0 0 5px 0;
+	padding: 0 0 0 65px;
+}
+/*资质许可*/
+.index_tsfw_bg{
+	background:url(../imag/pic7.png) no-repeat;
+	margin-bottom: 1px;
+}
+.index_tsfw_bg01{
+	background-position:0 0;
+}
+.index_tsfw_bg02{
+	background-position: 0 -458px;
+	height: 400px;
+}
+.index_tsfw_bg03{
+	background-position: 0 -858px;
+	height: 400px;
+}
+.index_tsfw_bg04{
+	background-position: 0 -1258px;
+	height: 400px;
+}
+.index_tsfw_bg05{
+	background-position: 0 -1658px;
+	height: 400px;
+}
+/*电信业务资质*/
+.index_tsfw10{
+	float:left;
+	width: 949px;
+	height: 458px;
+}
+/*对第一个的描述*/
+/*右边左边的描述*/
+.index_tsfw11{
+	width:949px;
+	height:458px;
+}
+.index_tsfw12{
+	width:410px;
+	height: 458px;;
+	 float:left;
+	font-size: 12px;
+}
+.index_tsfw13{
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding-left:20px;
+}
+.index_tsfw14{
+	padding: 17px 0 10px 0;
+}
+.index_tsfw14 a{
+	font-size: 18px;
+}
+.index_tsfw14 a:hover{
+	color:#e80b05;
+}
+.index_tsfw16{
+	display:block;
+	width:100px;
+	height:30px;
+	margin-top: 13px;
+	border: 1px solid #e80b05;
+	border-radius: 2px;
+	color:#e80b05;
+	margin-bottom: 24px;
+	line-height: 30px;
+	text-align:center;
+}
+.index_tsfw16:hover{
+	;background: #e80b05;color: #fff;
+}
+/*最后一个li添加一个2个的px*/
+
+/*对右边的描述*/
+.zzlx_r{
+	width:539px;
+	height: 458px;;
+	overflow:hidden;
+
+}
+.zzlx_r>a{
+	width:482px;
+	margin: 10px auto 0;
+	display:block;
+	text-align:center;
+}
+.zzlx_r>ul{
+	width:540px;
+	margin-top:7px;
+	border-top:1px solid #ddd;
+
+}
+.zzlx_r_li01{
+	border-right: 1px solid #ddd;
+	width: 269px;
+	float:left;
+	height:75px;
+	border-bottom:1px solid #ddd;
+	line-height: 76px;
+	text-align:center;
+}
+.zzlx_r>.zzlx_r_2{
+	width: 482px;
+	height:285px;
+	overflow:hidden;
+	display:block;
+	margin-bottom:11px;
+}
+.index_tsfw12>.index_tsfw131{
+	border-right:none;
+}
+.zzlx_r_3{
+	overflow: visible;
+}
+.zzlx_r1{
+	border-bottom:1px solid #ddd;
+	margin-bottom:2px;
+}
+
+
+
+/*公司注册*/
+.index_tsfwgszc{
+	border-top:1px solid #5b72fe;
+}
+/*公司注册的有右部分的描述*/
+/*左边*/
+.crdetail_container{
+	width: 949px;
+	height: 399px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.crdetail_container1{
+	width:949px;
+}
+.crdetail_container_left{
+	border-right:1px solid #ddd;
+	width: 310px;
+	height: 339px;
+	text-align: center;
+	padding-top: 60px;
+}
+.crdetail_container_left h2{
+	margin-bottom: 20px;
+}
+.crdetail_container_left>div{
+	font-size: 10px;
+	color: #a5a5a5;
+	margin-bottom: 20px;
+}
+.crdetail_contaier_icon{
+	margin-bottom: 40px;
+}
+.crdetail_container_left a{
+	display: block;
+	width: 205px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	margin: auto;
+	background: #ff5256;
+	color: #ffffff;
+	border-radius:4px;
+}
+.crdetail_container_left a:hover{
+	background: #fa4347;
+}
+/*右边*/
+.crdetail_container_right{
+	width: 637px;
+	box-sizing: border-box;
+	padding: 20px 0 0 30px ;
+}
+.crdetail_container_right a{
+	display: block;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+/*电商解决方案*/
+.index_ess_ul{
+	width:100%;
+}
+.index_ess{
+	border-top:1px solid #43d7ce;
+}
+.index_ess_right{
+	width:33.3%;
+	box-sizing: border-box;
+	height:199px;
+}
+.norightline{
+	border-right:none;
+}
+.nobottomline{
+	border-bottom:none;
+}
+
+
+
+
+
+
+/*首席顾问的描述*/
+.index_adviser{
+	padding-left:0;
+}
+/*首席顾问左边的描述*/
+.adviser_main_left{
+	width:628px;
+	height:394px;
+	box-sizing: border-box;
+	padding:15px 20px 20px 56px;
+	background: #fff;
+	border-right:1px solid #ddd;
+}
+.adviser_main_left a{
+	font-size: 17px;
+	padding-bottom: 5px;
+	display: block;
+	color:#333;
+}
+.adviser_main_left a:hover{
+	color: #ff5256;
+}
+.adviser_main_left_every{
+	width:535px;
+	border-bottom:1px dashed #e8e8e8;
+	margin-top: 10px;
+	margin-bottom:13px;
+}
+.adviser_main_left_every p{
+	color:#a5a5a5;
+	height:20px;
+	overflow: hidden;
+	margin-bottom:10px;
+	font-size: 14px;
+
+}
+/*首席顾问的右边的描述*/
+.adviser_main_right{
+	width:310px;
+	height:362px;
+	box-sizing: border-box;
+	padding: 3px 0 0 30px;
+}
+/*上边的描述*/
+.adviser_main_right_f{
+	margin-top: 13px;
+	font-size: 18px;
+	height:38px;
+	border-bottom: 2px solid #ddd;
+}
+.adviser_main_right_f>li{
+	width:129px ;
+	height: 40px;
+}
+.adviser_main_right_f span{
+	height: 38px;
+	display: inline-block;
+	width: 129px;
+}
+.adviser_span{
+	color:#5b72fe;
+	border-bottom:2px solid #5b72fe;
+}
+/*下边的描述*/
+
+
+
+
+
+
+
+
+/*展会专题的描述*/
+.zhzt{
+	width: 1220px;
+	height: 505px;
+	margin:40px auto;
+	overflow: hidden;
+}
+.zhzt h2{
+	width: 100%;
+	padding:10px 0 35px;
+}
+.zhzt h2 p{
+	width: 500px;
+	height: 35px;
+
+}
+.zhzt h2 p a{
+	line-height: 35px;
+	font-size: 31px;
+	color:#333;
+}
+/*主题内容的描述*/
+.zhzt_main{
+	width: 1260px;
+}
+.zhzt_main_container{
+	width: 390px;
+	margin-right:25px;
+	margin-bottom:20px;
+	height:290px;
+	overflow: hidden;
+}
+.zhzt_main_top{
+	background:#f4f4f4;
+	width: 390px;
+	height: 200px;
+}
+.zhzt_main_top a{
+	display:block;
+}
+.zhzt_main_img{
+	width: 390px;
+	height: 200px;
+	transition: all 0.5s ease;
+	background:url("../imag/pic9.png")/*tpa=http://static.jsyun.cc/static/images/defaultxin/pic9.png*/ no-repeat 0 0
+}
+.bg6{
+	background-position: -1950px 0;
+}
+.bg2{
+	background-position: -390px 0;
+}
+.bg3{
+	background-position: -780px 0;
+}
+.bg4{
+	background-position: -1170px 0;
+}
+.bg5{
+	background-position: -1560px 0;
+}
+.zhzt_mian_txt{
+	padding:12px 20px 0;
+	background: #faf9f9;
+	padding-bottom: 20px;
+}
+.zhzt_mian_txt>a{
+	font-size: 18px;
+	color: #333;
+	display:block;
+	margin-bottom:10px;
+
+}
+.zhzt_mian_txt>a:hover{
+	color:#ff5256;
+}
+.zhzt_mian_txt em{
+	font-size: 14px;
+	font-style: normal;
+	color:#a5a5a5;
+}
+/*他们都选择了金三优福*/
+.choose{
+	width: 1220px;
+	height: 404px;
+	overflow:hidden;
+}
+.choose_container{
+	margin-top: 8px;
+}
+.choose_container_a{
+	width: 192px;
+	height: 194px;
+	float:left;
+	margin-right: 7px;
+	overflow:hidden;
+	background: #fff;
+	text-align: center;
+	border:  1px dashed #ddd;
+   box-sizing: border-box;
+	position: relative;
+}
+/*如何让图片居中*/
+.choose_container_a img{
+	vertical-align: middle;
+	max-height: 192px;
+	max-width: 192px;
+	margin-top: 60px;
+}
+/*遮照层的描述*/
+.trigger{
+	background:#ff5256;
+	height:100%;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:20;
+	opacity:0;
+	transition: opacity .5s linear;
+}
+.trigger:hover{
+	opacity:0.8;
+}
+.trigger p{
+	background-image: url("../imag/trigger-arrow.png")/*tpa=http://static.jsyun.cc/static/images/trigger-arrow.png*/;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	background-position: center top;
+	z-index: 10;
+}
+
+.trigger p {
+	background-repeat: no-repeat;
+	color: white;
+	font-size: 16px;
+	margin-top: 0;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+	white-space: nowrap;
+}
+/*尾部的描述*/
+.footer{
+	width:100%;
+	background:url("../imag/pic20.png") no-repeat center center;
+	height:210px;
+	margin-bottom: 50px;
+}
+.footer_main{
+	width: 1220px;
+	margin:0 auto;
+	text-align: center;
+	color: #fff;
+	background: #ddd;
+
+}
+.footer_main h2{
+	font-size: 36px;
+	padding: 26px 0;
+}
+.footer_main p{
+	padding-bottom: 20px;
+}
+.footer_main a{
+	color: #ffffff;
+	border:1px solid #fff;
+	line-height:40px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+.footer_main a:hover{
+	background: #ff5256;
+}
+
+/*对轮播广告的下边的左边的描述*/
+.index-css{
+	position:absolute;
+	bottom:5%;
+	left:46%;
+}
+.index-css>li{
+	float:left;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:#ddd;
+	text-align: center;
+	margin-left: 5px;
+}
+#foot{
+	margin:0 auto;
+}

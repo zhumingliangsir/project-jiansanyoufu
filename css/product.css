@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{font: 12px/1.5 "Microsoft YaHei", Î¢ÈíÑÅºÚ,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu;
+color: #666;}
+
+
+
+.side{
+    width: 215px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.sub-side{
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+}
+.product-side-title{
+    background-color: #535353;
+    color: #fff;
+    padding-left:15px;
+}
+.product-side-main{
+    background-color: #fff;
+    border-right: 1px solid #eee;
+}
+
+.product-side-main>li{
+    cursor: pointer;
+    display: block;
+    padding: 18px 10px 18px 10px;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.product-side-main>li>span{
+    padding-left:15px;
+}
+
+.produnct-side-icon{
+    background: rgba(0, 0, 0, 0) url("../productimg/left-icon.png") repeat scroll;
+    display: inline-block;
+    height: 17px;
+    vertical-align: middle;
+    width: 17px;
+}
+.side-icon-1{
+    background-position: 0 0;
+}
+.side-icon-2{
+    background-position: -17px -17px;
+}
+/*.gs:hover .side-icon-2{*/
+    /*background-position:0 -17px;*/
+/*}*/
+.side-icon-3{
+    background-position: -17px -34px;
+}
+/*.zs:hover .side-icon-3{*/
+    /*background-position:0 -34px;*/
+/*}*/
+.side-icon-4{
+    background-position: -17px -51px;
+}
+/*.qy:hover .side-icon-4{*/
+    /*background-position:0 -51px;*/
+/*}*/
+.side-icon-5{
+    background-position: -17px -68px;
+}
+/*.zj:hover .side-icon-5{*/
+    /*background-position:0 -68px;*/
+/*}*/
+
+.product-main{
+    padding: 0 0 50px 24px;
+    width: 980px;
+}
+.product-main-1{
+    background: url("../productimg/icp_bg.png")  no-repeat 0 0;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 30px;
+    color: #333;
+}
+.main-1-left{
+    float: left;
+    overflow: hidden;
+    width: 640px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.info{
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 19px;
+    width: 633px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.divtel{
+    color: #ff5256;
+    font-size: 30px;
+    background: url("../productimg/tel400.jpg") no-repeat scroll 0 3px;
+    padding-left: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.connect{
+    margin-top:13px;
+    margin-bottom:30px;
+}
+.connect-me{
+    background: #ff5256 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 33px;
+    line-height: 33px;
+    min-width: 78px;
+    outline: medium none;
+    padding: 0 30px 1px;
+    text-align: center;
+}
+.gold-server{
+font-size: 14px;
+margin-left: 8px;
+color: #ff5256;
+}
+
+
+.roduct-main-2{
+}
+.main-2-title li{
+    font-size: 14px;
+    height: 3pc;
+    line-height: 3pc;
+    position: relative;
+    text-align: center;
+    width: 25%;
+    background: #fbfaf8 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #666;
+    display: inline-block;
+    margin-left: -5px;
+}
+.main-2-title .active-2{
+    background: #fff none repeat scroll 0 0;
+    border-color: #ff5256 #ddd #ddd;
+    border-image: none;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    color: #000;
+    text-decoration: none;
+    z-index: 1;
+}
+.p-24{font-size: 24px;
+font-weight: 500;
+color: #333;
+}
+
+.jbtj{
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+.jbtj-img{
+    width: 380px;
+    height: 285px;
+    background: url("../productimg/pic02.png") 0 0 no-repeat;
+    position: relative;
+}
+.jbtj-img p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 380px;
+    background: url("../productimg/pic03.png") 0 0 repeat-x;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+.jbtj-content{
+    padding: 25px 28px 0 35px;
+    width: 519px;
+    height: 286px;
+    border: 1px solid #e8e8e8;
+}
+.jbtj-content li{
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 5px;
+
+}
+
+.anli{
+    border: 1px solid #e8e8e8;
+}
+
+.anli-img {
+    width: 235px;
+    border-left: 1px solid #e8e8e8;
+    padding: 50px 0;
+}
+.anli-img img{
+    height: 43px;
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+}
+.my-product>div{
+    display: none;
+}
+.my-product>.my_div0{
+    display: block;
+}

@@ -1,0 +1,33 @@
+/*重置样式*/
+/*a的几套样式*/
+body {
+    font-family: "Microsoft YaHei", 微软雅黑, \9ed1\4f53, \5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+}
+/*//对a主要是14px 和16 px进行设置,默认是14px*/
+a{
+    font-size:14px;
+    color: #474e5d;
+    text-decoration: none;
+    display:inline-block;
+}
+a:hover{
+     color:#ffffff;
+}
+.a16{
+    font-size: 16px;
+}
+.lf{float:left;}
+.lt{float:right}
+
+.f-clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+.f-clearfix:before{
+    content: ' ';
+    display:table;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<div class="login">
+    <div class="login-content">
+        <p class="login-content-title">
+            <span style="margin-right:60px;">手机登录</span>
+            <span>账号登录</span>
+        </p>
+        <ul id="x_login_phone" class="x-login-phone x-active">
+        <li>
+            <p class="leftp">用户名</p>
+            <p class="logerror x-jserr"><i>输入的账号或者密码有误！</i></p>
+            <p class="logr tsa">还没有账号？<a href="register_new.html">5秒注册</a></p>
+            <input id="x_phone" class="x-js-name" type="text" placeholder="请输入手机号">
+            <span class="x-sv-iconphone x-sv-icon"></span>
+        </li>
+        <li class="x-pwdbox">
+            <p class="leftp">密码</p>
+            <p class="passerror x-jserr"><i>请输入动密码！</i></p>
+            <!-- <p class="logr"><a class="forgetpassword">忘记密码？</a></p> -->
+            <input id="phone_pwd" type="password" class="logpwd x-js-pwd" placeholder="请输入密码">
+            <span class="x-sv-iconpwd x-sv-icon"></span>
+            <span class="js-pwdLook"></span>
+            <!--<em>获取动态码</em>-->
+        </li>
+        <li class="logyzm" style="display: none;">
+            <p>验证码</p>
+            <input id="x_yzm_input" class="lyzmbg" type="text" placeholder="请输入验证码">
+            <img class="yanzhengma_" id="x_yzm_img" width="109" height="40" src="http://www.tmooc   .cn/validateCode?uuid=E5CC6820C23C817623339E301E788CAC&amp;t=0.28949756542428284">
+            <p class="yzmch">看不清楚？<a href="#" class="yzm_change">换一张</a></p>
+            <p class="error x-jserr x-right"><span class="x-err" style="margin: 0;"></span></p>
+        </li>
+        <li class="cook x-lmode-box">
+            <p class="x-svip-lmode ">
+                <!--<a href="#" style="display: none;"><img src="../script/img_17/img_svip_17/x_svip_icon_q.png" alt=""><em>QQ登录</em></a>-->
+                <!--<a href="" style="display: none;"><img src="../script/img_17/img_svip_17/x_svip_icon_w.png" alt=""><em>微信登录</em></a>-->
+            </p>
+            <label class="x-check-box"><input class="x-chek" checked="" type="checkbox" value=""> 7天自动登录</label>
+        </li>
+        <li class="zhbut">
+            <a id="x_logPhone">登录</a>
+        </li>
+    </ul>
+    </div>
+</div>
+</body>
+</html>
